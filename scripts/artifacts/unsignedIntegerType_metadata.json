@@ -1,0 +1,124 @@
+{
+	"compiler": {
+		"version": "0.8.18+commit.87f61d96"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "max_16",
+				"outputs": [
+					{
+						"internalType": "int16",
+						"name": "",
+						"type": "int16"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "max_32",
+				"outputs": [
+					{
+						"internalType": "int32",
+						"name": "",
+						"type": "int32"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "max_8",
+				"outputs": [
+					{
+						"internalType": "int8",
+						"name": "",
+						"type": "int8"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "min_16",
+				"outputs": [
+					{
+						"internalType": "int16",
+						"name": "",
+						"type": "int16"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "min_32",
+				"outputs": [
+					{
+						"internalType": "int32",
+						"name": "",
+						"type": "int32"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "min_8",
+				"outputs": [
+					{
+						"internalType": "int8",
+						"name": "",
+						"type": "int8"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"scripts/minmax.sol": "unsignedIntegerType"
+		},
+		"evmVersion": "paris",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"scripts/minmax.sol": {
+			"keccak256": "0x97c584389b21c617a916802c4035f410a874ae2e1ef47c965531adcec9e33340",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://8e476b7861222a479070be5bd4a4f67a7380287d71a812ed27ae7c043ba224e7",
+				"dweb:/ipfs/QmNUQQym5awMtPT3QFqCZQMH96V2e6ZF86GhSNEWZcJ3Va"
+			]
+		}
+	},
+	"version": 1
+}
