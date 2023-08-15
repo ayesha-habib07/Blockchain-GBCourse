@@ -1,0 +1,66 @@
+{
+	"compiler": {
+		"version": "0.8.18+commit.87f61d96"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "idelete",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "w1",
+				"outputs": [
+					{
+						"internalType": "enum newcon.WorkingDays",
+						"name": "",
+						"type": "uint8"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/testing.sol": "newcon"
+		},
+		"evmVersion": "paris",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/testing.sol": {
+			"keccak256": "0xc3934887837a9db29daca51bb0738032821d6f6d846bd3478a6a115adc6d3cb0",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://16d393c21c6c7e08c0b2d09551f68279d45057b6cad947161bc038e3074aae3a",
+				"dweb:/ipfs/QmaUhTiovPhod4wZn2yFmndn9o5HKrXwGpLTikCiAkPnr9"
+			]
+		}
+	},
+	"version": 1
+}

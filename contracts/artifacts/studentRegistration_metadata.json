@@ -1,0 +1,408 @@
+{
+	"compiler": {
+		"version": "0.8.21+commit.d9974bed"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "_localvar",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "name",
+						"type": "string"
+					},
+					{
+						"internalType": "uint256",
+						"name": "age",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "registrationDate",
+						"type": "uint256"
+					},
+					{
+						"internalType": "enum studentRegistration.Department",
+						"name": "department",
+						"type": "uint8"
+					},
+					{
+						"internalType": "enum studentRegistration.status",
+						"name": "Status",
+						"type": "uint8"
+					},
+					{
+						"internalType": "uint256",
+						"name": "ObtainedMarks",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"name": "arr",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "name",
+						"type": "string"
+					},
+					{
+						"internalType": "uint256",
+						"name": "age",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "registrationDate",
+						"type": "uint256"
+					},
+					{
+						"internalType": "enum studentRegistration.Department",
+						"name": "department",
+						"type": "uint8"
+					},
+					{
+						"internalType": "enum studentRegistration.status",
+						"name": "Status",
+						"type": "uint8"
+					},
+					{
+						"internalType": "uint256",
+						"name": "ObtainedMarks",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "enum studentRegistration.Department",
+						"name": "_dept",
+						"type": "uint8"
+					}
+				],
+				"name": "dept",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "deptm",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "dept1",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "dept2",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "dept3",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "dept4",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "getTopThreeBlockchainAchievers",
+				"outputs": [
+					{
+						"components": [
+							{
+								"internalType": "string",
+								"name": "name",
+								"type": "string"
+							},
+							{
+								"internalType": "uint256",
+								"name": "age",
+								"type": "uint256"
+							},
+							{
+								"internalType": "uint256",
+								"name": "registrationDate",
+								"type": "uint256"
+							},
+							{
+								"internalType": "enum studentRegistration.Department",
+								"name": "department",
+								"type": "uint8"
+							},
+							{
+								"internalType": "enum studentRegistration.status",
+								"name": "Status",
+								"type": "uint8"
+							},
+							{
+								"internalType": "uint256",
+								"name": "ObtainedMarks",
+								"type": "uint256"
+							}
+						],
+						"internalType": "struct studentRegistration.student[3]",
+						"name": "",
+						"type": "tuple[3]"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_rollno",
+						"type": "uint256"
+					},
+					{
+						"internalType": "string",
+						"name": "_name",
+						"type": "string"
+					},
+					{
+						"internalType": "uint256",
+						"name": "_age",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "_registrationDate",
+						"type": "uint256"
+					},
+					{
+						"internalType": "enum studentRegistration.Department",
+						"name": "_department",
+						"type": "uint8"
+					},
+					{
+						"internalType": "enum studentRegistration.status",
+						"name": "_status",
+						"type": "uint8"
+					},
+					{
+						"internalType": "uint256",
+						"name": "_obtainedMarks",
+						"type": "uint256"
+					}
+				],
+				"name": "registration",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "rollno",
+						"type": "uint256"
+					}
+				],
+				"name": "retrive",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "_name",
+						"type": "string"
+					},
+					{
+						"internalType": "uint256",
+						"name": "_age",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "_registrationDate",
+						"type": "uint256"
+					},
+					{
+						"internalType": "enum studentRegistration.Department",
+						"name": "_department",
+						"type": "uint8"
+					},
+					{
+						"internalType": "enum studentRegistration.status",
+						"name": "_status",
+						"type": "uint8"
+					},
+					{
+						"internalType": "uint256",
+						"name": "_obtainedMarks",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"name": "stdinfo",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "name",
+						"type": "string"
+					},
+					{
+						"internalType": "uint256",
+						"name": "age",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "registrationDate",
+						"type": "uint256"
+					},
+					{
+						"internalType": "enum studentRegistration.Department",
+						"name": "department",
+						"type": "uint8"
+					},
+					{
+						"internalType": "enum studentRegistration.status",
+						"name": "Status",
+						"type": "uint8"
+					},
+					{
+						"internalType": "uint256",
+						"name": "ObtainedMarks",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "rollno",
+						"type": "uint256"
+					},
+					{
+						"internalType": "string",
+						"name": "_name",
+						"type": "string"
+					},
+					{
+						"internalType": "uint256",
+						"name": "_age",
+						"type": "uint256"
+					},
+					{
+						"internalType": "enum studentRegistration.Department",
+						"name": "_department",
+						"type": "uint8"
+					},
+					{
+						"internalType": "enum studentRegistration.status",
+						"name": "_status",
+						"type": "uint8"
+					}
+				],
+				"name": "update",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/8thaug.sol": "studentRegistration"
+		},
+		"evmVersion": "shanghai",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/8thaug.sol": {
+			"keccak256": "0x46dcddf59ea1ba258db8fbe59c63909a59db76160c5417ad3c5ad59fff60466d",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://201c308aafa37e5dc531395c144664c36f2333bbbf26c4a560c5aab898aa6db6",
+				"dweb:/ipfs/QmPEWK7JCj9NYmLpAzwSSfoyfj9EJoZPNV3UPkdSDwCm2o"
+			]
+		}
+	},
+	"version": 1
+}

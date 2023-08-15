@@ -1,0 +1,72 @@
+{
+	"compiler": {
+		"version": "0.8.18+commit.87f61d96"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "dowhileTest",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "forTest",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/2ndaug.sol": "ControlFlow"
+		},
+		"evmVersion": "paris",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/2ndaug.sol": {
+			"keccak256": "0x803680683dfe63b0535ce7398994709d8bf7f05edde1f5b9c5e3624e6f75af46",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://a599cb51977ec4dc988d813c2ac0d85cd5bce9909cd0a5d429f03076b5a28bed",
+				"dweb:/ipfs/QmVddPfD8h9ApbcLo1wrpLJf3ywZRg9QLd83FqcetzwFY5"
+			]
+		}
+	},
+	"version": 1
+}

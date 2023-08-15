@@ -15,7 +15,6 @@ contract AndGate{
         return _bool && _bool;
     }
 }
-
 contract minmax{
     int8 public int8max = type(int8).max;
     int8 public int8min = type(int8).min;
@@ -86,8 +85,3 @@ address public defaultAddr; //0x0000000000000000000000000000000000000
 
 contract demo {
 string public greet = "Hello Web 3.0"; }
-
-
-
-
-

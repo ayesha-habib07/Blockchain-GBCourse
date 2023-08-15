@@ -1,0 +1,65 @@
+{
+	"compiler": {
+		"version": "0.8.21+commit.d9974bed"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"name": "AddrToName",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/7thaug.sol": "Mapper"
+		},
+		"evmVersion": "shanghai",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/7thaug.sol": {
+			"keccak256": "0x2c8b786c13c5515735e87c217dfdf4e127c8f2288700a2cb399d641a86dc66a2",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://896d4da313a42bdfc6606f5f7547c48568feb5f783d2a334ec0aa1009319a5e7",
+				"dweb:/ipfs/QmYazK7f2mFYzMP6CRRgfFxy1vBjJajzTvQHgLtVNBNbg1"
+			]
+		}
+	},
+	"version": 1
+}

@@ -1,0 +1,68 @@
+{
+	"id": "dcae285002ba55a2b43472ccedc054db",
+	"_format": "hh-sol-build-info-1",
+	"solcVersion": "0.8.21",
+	"solcLongVersion": "0.8.21+commit.d9974bed",
+	"input": {
+		"language": "Solidity",
+		"sources": {
+			"contracts/2ndaug.sol": {
+				"content": "// SPDX-License-Identifier: MIT\r\npragma solidity ^0.8.13;\r\n// contract TicketBookingSystem{\r\n// enum TicketType{\r\n//     Economy, \r\n//     Business,\r\n//     FirstClass\r\n// }\r\n// enum Days{\r\n//     Monday, \r\n//     Tuesday,\r\n//     Wednesday,\r\n//     hursday, Friday,\r\n//     Saturday, \r\n//     Sunday\r\n// }\r\n// struct Ticket{\r\n//     string passengerName;\r\n//     TicketType  tickettype;\r\n//     Days day;\r\n//     bool isBooked;\r\n// }\r\n// Ticket[] public tickets;\r\n// function bookTicket( string memory _passengerName,TicketType  _tickettype, Days _days,bool _isBooked) public{\r\n    \r\n//     Ticket memory  newVar;\r\n//     newVar.passengerName = _passengerName;\r\n//     newVar. tickettype =  _tickettype;\r\n//     newVar.day = _days;\r\n//     newVar. isBooked =  _isBooked;\r\n//     tickets.push(newVar);\r\n// } \r\n// function  getTicketType(uint _index) public view returns (TicketType){\r\n\r\n//     Ticket memory nameOfTicket = tickets[_index];\r\n//     return (nameOfTicket.tickettype);\r\n// }\r\n// function getTicketDay(uint _index) public  view returns (Days){\r\n//     Ticket memory nameOfDay = tickets[_index];\r\n//     return (nameOfDay.day);\r\n// }\r\n// function  toggleStatus(uint256 _index ) public{\r\n//     Ticket storage booked = tickets[_index];\r\n//     booked.isBooked = !booked.isBooked;\r\n// }\r\n// }\r\n// contract Loop {\r\n// function PrimeChecker(uint _num) public pure returns (bool is_prime ) {\r\n//  uint j =2;\r\n//  is_prime= true;\r\n//  if (_num == 0 || _num == 1) {\r\n//  is_prime = false;\r\n//  }\r\n//  while (j <= _num/2 ) {\r\n//  if (_num % j == 0) {\r\n//  is_prime = false;\r\n//  break; }\r\n//  j++; }\r\n// }\r\n// }\r\n\r\n// contract Loop {\r\n//  function Palindrome(uint input) public pure returns (bool) {\r\n//  uint temp = input;\r\n//  uint digit;\r\n//  uint rev;\r\n//  do{\r\n//  digit = temp % 10;\r\n//  rev = (rev * 10) + digit;\r\n//  temp = temp / 10;\r\n//  } while (temp != 0);\r\n//  if (input == rev)\r\n//  return true;\r\n//  else\r\n//  return false; }\r\n// }\r\n// contract Loop {\r\n// uint[] data;\r\n// function loop() public returns (uint[] memory) {\r\n\r\n//  for (uint8 i = 0; i < 20; i=i+2) {\r\n//  data.push(i);\r\n//  }\r\n//  return data;\r\n// }\r\n// }\r\n// contract Loop {\r\n// uint[] data;\r\n// function loop() public returns (uint[] memory) {\r\n\r\n//  for (uint8 i = 1; i < 20; i=i+2) {\r\n//  data.push(i);\r\n//  }\r\n//  return data;\r\n// }\r\n// }\r\n// contract ControlFlow {\r\n// // while\r\n//  function whileTest() public pure returns(uint256){\r\n//  uint sum = 0;\r\n//  uint i = 0;\r\n//  while(i < 15){\r\n//  sum += i;\r\n//  i++; }\r\n//  return(sum);\r\n//  }\r\n//  function forTest() public pure returns(uint256){\r\n//  uint sum = 0;\r\n//  uint i = 0;\r\n//  for(i=0 ;i< 15 ; i++){\r\n//      sum = sum +i;\r\n//  }\r\n//  return (sum);\r\n//  }\r\n//  function dowhileTest() public pure returns (uint256){\r\n//     uint sum = 0;\r\n//     uint i = 0;\r\n//      do{\r\n//      sum = sum +i;\r\n//      i++;\r\n//      }\r\n//      while( i< 15);\r\n//      return (sum);\r\n     \r\n//  }\r\n// } \r\n\r\n\r\n\r\n"
+			}
+		},
+		"settings": {
+			"optimizer": {
+				"enabled": false,
+				"runs": 200
+			},
+			"outputSelection": {
+				"*": {
+					"": [
+						"ast"
+					],
+					"*": [
+						"abi",
+						"metadata",
+						"devdoc",
+						"userdoc",
+						"storageLayout",
+						"evm.legacyAssembly",
+						"evm.bytecode",
+						"evm.deployedBytecode",
+						"evm.methodIdentifiers",
+						"evm.gasEstimates",
+						"evm.assembly"
+					]
+				}
+			}
+		}
+	},
+	"output": {
+		"sources": {
+			"contracts/2ndaug.sol": {
+				"ast": {
+					"absolutePath": "contracts/2ndaug.sol",
+					"exportedSymbols": {},
+					"id": 2,
+					"license": "MIT",
+					"nodeType": "SourceUnit",
+					"nodes": [
+						{
+							"id": 1,
+							"literals": [
+								"solidity",
+								"^",
+								"0.8",
+								".13"
+							],
+							"nodeType": "PragmaDirective",
+							"src": "33:24:0"
+						}
+					],
+					"src": "33:2908:0"
+				},
+				"id": 0
+			}
+		}
+	}
+}

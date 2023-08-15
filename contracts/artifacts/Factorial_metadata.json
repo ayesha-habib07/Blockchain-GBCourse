@@ -1,0 +1,65 @@
+{
+	"compiler": {
+		"version": "0.8.18+commit.87f61d96"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "n",
+						"type": "uint256"
+					}
+				],
+				"name": "createFact",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/4thaug.sol": "Factorial"
+		},
+		"evmVersion": "paris",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/4thaug.sol": {
+			"keccak256": "0xdcdd17609bda63872743ddd21fd7c9f77c538ff8169bf2df3b7aa9b817597485",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://6a6927c9cf83793b33e07e5b86ffc82c65fe724adc6030c596d9b479549d4eae",
+				"dweb:/ipfs/QmWPtrqKR1gYkxA8ZH4KY6LamLivzYTfJ1KoMTc3eirgzZ"
+			]
+		}
+	},
+	"version": 1
+}

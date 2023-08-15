@@ -1,0 +1,65 @@
+{
+	"compiler": {
+		"version": "0.8.21+commit.d9974bed"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "uint256[]",
+						"name": "originalArray",
+						"type": "uint256[]"
+					}
+				],
+				"name": "modifyMemory",
+				"outputs": [
+					{
+						"internalType": "uint256[]",
+						"name": "",
+						"type": "uint256[]"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/7thaug.sol": "MemoryAssignment"
+		},
+		"evmVersion": "shanghai",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/7thaug.sol": {
+			"keccak256": "0x4b5da1cd031db87efa093e6f6183af2c01df5178f801b5ea98b4be76bc18bdaa",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://d68ab2d4cfaffc3726cb3fa9d0ab2ed2677aacf0b402a500053ca3608a1552dc",
+				"dweb:/ipfs/QmVeNRhYMdREoYHRFzUSijQtV8wUdd4Lq4QfRXvftJb3sh"
+			]
+		}
+	},
+	"version": 1
+}
