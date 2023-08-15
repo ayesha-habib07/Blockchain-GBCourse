@@ -1,0 +1,64 @@
+{
+	"compiler": {
+		"version": "0.8.18+commit.87f61d96"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "ID",
+						"type": "uint256"
+					},
+					{
+						"internalType": "address",
+						"name": "newOwner",
+						"type": "address"
+					}
+				],
+				"name": "transferOwner1",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/15thaug.sol": "OwnerShipTransfer"
+		},
+		"evmVersion": "paris",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/15thaug.sol": {
+			"keccak256": "0x43efd66b4db7770a46a129b463b41b18608889629278c7b415706d34e9f77355",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://a9d353c30271a5acddb3513fe63ab0905166c20a38119ec24077895e8e3a25e8",
+				"dweb:/ipfs/QmSSmUSEEUMmDNCAgbDEdJZz9odmuqRhjSsrpeCMMGLAPM"
+			]
+		}
+	},
+	"version": 1
+}

@@ -6,25 +6,6 @@
 	"output": {
 		"abi": [
 			{
-				"anonymous": false,
-				"inputs": [
-					{
-						"indexed": false,
-						"internalType": "string",
-						"name": "message",
-						"type": "string"
-					},
-					{
-						"indexed": false,
-						"internalType": "int256",
-						"name": "number",
-						"type": "int256"
-					}
-				],
-				"name": "localvar",
-				"type": "event"
-			},
-			{
 				"inputs": [
 					{
 						"internalType": "int256",
@@ -32,7 +13,20 @@
 						"type": "int256"
 					}
 				],
-				"name": "numgive",
+				"name": "add",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"name": "arr",
 				"outputs": [
 					{
 						"internalType": "int256",
@@ -40,6 +34,13 @@
 						"type": "int256"
 					}
 				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "pop",
+				"outputs": [],
 				"stateMutability": "nonpayable",
 				"type": "function"
 			}
@@ -57,7 +58,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"contracts/11thaug.sol": "event2"
+			"contracts/15thaug.sol": "Darray"
 		},
 		"evmVersion": "paris",
 		"libraries": {},
@@ -71,12 +72,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"contracts/11thaug.sol": {
-			"keccak256": "0xfd09182df442bd2359f140a984ff08aa97b7cb679a37afe77ec82a1583e97298",
+		"contracts/15thaug.sol": {
+			"keccak256": "0x94a409643c6c988ab1dbb1cf4c6b2dc0093bfe103250b7aa9fab2cb17ea40f46",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://374a165fd2affc56f8a418327c07c6d3430800ff93434ad8c6c848a24668aedc",
-				"dweb:/ipfs/Qmc3jCRuHpYPzXJHBvo72R3ywPQCVU9wFcgYPBWZVjPeg8"
+				"bzz-raw://12ebada71bc90644e08482a1570f3db2eb1e4cfd2b2473743e439c5cdc7a4ff3",
+				"dweb:/ipfs/QmXAqeEp4AmtNTJoeR6qJLTPVYQnwKLS3MuniijMV4UwbN"
 			]
 		}
 	},

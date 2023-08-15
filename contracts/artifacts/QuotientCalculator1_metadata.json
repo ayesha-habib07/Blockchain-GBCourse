@@ -1,0 +1,70 @@
+{
+	"compiler": {
+		"version": "0.8.18+commit.87f61d96"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "numerator",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "denomirator",
+						"type": "uint256"
+					}
+				],
+				"name": "calculateQuotient",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/15thaug.sol": "QuotientCalculator1"
+		},
+		"evmVersion": "paris",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/15thaug.sol": {
+			"keccak256": "0x177b9a4293f6b9eb1b15ff7fba9ee38cbd4adfb7dbbbe13739a12324edf2a9d6",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://158f6e6a378e3833a8b7cc9dcd84db3d83d65a3bffe1bde9214185d415b14e53",
+				"dweb:/ipfs/QmUJ2C5gXm3JDB81J6KHCGPbynbFpXAtuhWL5FPQXNVtJg"
+			]
+		}
+	},
+	"version": 1
+}

@@ -1,0 +1,45 @@
+{
+	"compiler": {
+		"version": "0.8.18+commit.87f61d96"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/15thaug.sol": "errorHandling"
+		},
+		"evmVersion": "paris",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/15thaug.sol": {
+			"keccak256": "0xd65697b42ea0b3e99967022cb3625fe62551e68209b01e0e3666728ee4b1bec4",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://c8e205ec7e50d0cbaa275c1be6760b18d3ae2c35ee3238a3fa1abdc4d83fb9e6",
+				"dweb:/ipfs/QmTJ1AEdznoQwsj5PS5zsSbG9NDyxJbdNNpL6SUQBDGLLw"
+			]
+		}
+	},
+	"version": 1
+}

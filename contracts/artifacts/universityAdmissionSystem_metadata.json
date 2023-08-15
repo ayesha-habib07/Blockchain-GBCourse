@@ -1,0 +1,120 @@
+{
+	"compiler": {
+		"version": "0.8.18+commit.87f61d96"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"name": "admissionStatus",
+				"outputs": [
+					{
+						"internalType": "bool",
+						"name": "",
+						"type": "bool"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "studentID",
+						"type": "uint256"
+					},
+					{
+						"internalType": "enum universityAdmissionSystem.Department",
+						"name": "dept",
+						"type": "uint8"
+					}
+				],
+				"name": "chooseDepartment",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"name": "chosenDepartment",
+				"outputs": [
+					{
+						"internalType": "enum universityAdmissionSystem.Department",
+						"name": "",
+						"type": "uint8"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "studentID",
+						"type": "uint256"
+					},
+					{
+						"internalType": "bool",
+						"name": "hasPassed",
+						"type": "bool"
+					}
+				],
+				"name": "setAdmissionStatus",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/15thaug.sol": "universityAdmissionSystem"
+		},
+		"evmVersion": "paris",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/15thaug.sol": {
+			"keccak256": "0x3bf048a34729e7c50016edd53b95fd816ec7abab0af10e9c1664f846b4dc07e6",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://0925689f3917670c5101ab8fdb9b6cf495ce0efa65f6a79741b03065d492240c",
+				"dweb:/ipfs/QmarTmtisiCQFSasQ1NsmyagtVs1C5q5vnaNd1c2MwKPrR"
+			]
+		}
+	},
+	"version": 1
+}
